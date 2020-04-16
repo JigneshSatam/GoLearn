@@ -1,0 +1,57 @@
+1/ Data Types
+Numbers
+Int => Int8, Int16, Int32, Int64, uint8, uint16, uint32, uint64 => 0
+int => int8
+int => int16
+Float =>  Float32, Float64 => 0.0
+Complex => Complex64
+
+Rune -> Char = 'A' => 0
+Strings -> "A" => ""
+Booleans -> true, false => false
+Bytes {10012,01203} => {0}
+
+
+2/ Variables
+How to Name a Variable
+Scope/ Shadowing
+Constants
+Defining Multiple Variables
+An Example Program
+
+
+3/ Control Structures
+For
+If -> else
+Switch
+
+
+4/ Arrays, Slices and Maps
+Arrays
+Slices
+Maps
+
+5/ Functions
+Second Function
+Returning Multiple Values
+Variadic Functions
+Closure ***
+Recursion
+Defer, Panic & Recover
+
+6/ Pointers
+The * and & operators
+new
+
+7/ Structs and Interfaces
+Structs
+Methods
+Interfaces
+
+8/ Concurrency
+Goroutines
+Channels
+
+9/ Packages
+Creating Packages
+Documentation

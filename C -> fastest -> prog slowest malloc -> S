@@ -1,0 +1,75 @@
+C -> fastest -> prog slowest malloc -> Single core processor
+
+GoLang -> fater than java but slower than C in terms of exec. -> Faster than C & Java in terms of programming (Kem Thompson => Unix, Robe Pike => UTF-8, Robert Griesemer => Google's V8 engine)
+
+Java -> Garbage collection -> slow than C in programming -> Single core processor
+
+ruby, python -> interpreted lang -> fastest in programming -> Single core processor
+
+8 Bytes = 8*8 bits
+1Byte = 8 bits
+
+
+class User
+  attr_accessor :name, :surname
+
+  def add_surname(surname)
+    self.surname = surname
+  end
+
+  def get_name
+    self.surname
+  end
+
+  u1 = User.new()
+  puts u1.surname => Nil
+  u1.add_surname(" Singh ")
+  puts u1.surname => Singh
+
+  Nil => "Singh"
+end
+
+func abc(a int) string {
+  return convertToString(a)
+  def(a)
+  return convertToString(a) + " " + convertToString(a)
+}
+
+func def(a int) string {
+  return convertToString(a) + " " + convertToString(a)
+}
+
+func abc(f func(a int) string ) {
+
+}
+
+
+
+golang -> mutil core processors
+
+  ->                    <-
+  ->   Java / Golang    <-  Os 8 CORES
+  ->                    <-
+
+  puts x
+
+  System.out.println(x)
+
+
+ 10Mb ram -> 10 Threads -> (Single 1Mb)
+
+ 200Kb <- 100Kb    100 works
+
+ 1Thread <- mutilple Green Threads <- Go Threads
+
+ Dead Lock
+ A waiting for -> B
+ B waiting for -> A
+
+ Race Condition
+ A waiting for  -> X
+ B waiting for  -> X
+
+ C Slept with X
+ C waiting for D
+
